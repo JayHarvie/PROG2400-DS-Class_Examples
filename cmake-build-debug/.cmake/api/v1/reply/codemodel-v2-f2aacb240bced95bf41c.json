@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "hello_world",
+					"jsonFile" : "directory-hello_world-Debug-696bd2976198508bf089.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "hello_world",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "echo",
+					"jsonFile" : "directory-echo-Debug-1c2860b8193a103bbb88.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "echo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "commandline_arguments",
+					"jsonFile" : "directory-commandline_arguments-Debug-5a738432781e5031b8e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "commandline_arguments",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "string_stream",
+					"jsonFile" : "directory-string_stream-Debug-529cfe9f86cd4b029077.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "string_stream",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ClassExamples"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "hello_world",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "echo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "commandline_arguments",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "string_stream",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "commandline_arguments::@fbbafab0cf640da236b5",
+					"jsonFile" : "target-commandline_arguments-Debug-6575118bc7591e2be086.json",
+					"name" : "commandline_arguments",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "echo::@2c99ba746fe048c72ac1",
+					"jsonFile" : "target-echo-Debug-a092b5d60f5f705d386b.json",
+					"name" : "echo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "hello_world::@fed30406b832b6c457e1",
+					"jsonFile" : "target-hello_world-Debug-9de04ed2409d83cc6a57.json",
+					"name" : "hello_world",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "string_stream::@92d7a6668f47fffae00f",
+					"jsonFile" : "target-string_stream-Debug-046ac3f67993b1ba306f.json",
+					"name" : "string_stream",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug",
+		"source" : "E:/PROG2400-Data_Structures/ClassExamples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
