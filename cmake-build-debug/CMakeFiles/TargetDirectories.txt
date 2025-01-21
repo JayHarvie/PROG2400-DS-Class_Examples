@@ -12,3 +12,12 @@ E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/commandline_argument
 E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/string_stream/CMakeFiles/string_stream.dir
 E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/string_stream/CMakeFiles/edit_cache.dir
 E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/string_stream/CMakeFiles/rebuild_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/pointers/CMakeFiles/pointers.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/pointers/CMakeFiles/edit_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/pointers/CMakeFiles/rebuild_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/vectors/CMakeFiles/vectors.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/vectors/CMakeFiles/edit_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/vectors/CMakeFiles/rebuild_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/linked_list/CMakeFiles/linked_list.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/linked_list/CMakeFiles/edit_cache.dir
+E:/PROG2400-Data_Structures/ClassExamples/cmake-build-debug/linked_list/CMakeFiles/rebuild_cache.dir

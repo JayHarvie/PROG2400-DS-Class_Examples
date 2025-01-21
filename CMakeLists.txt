@@ -7,4 +7,6 @@ add_subdirectory(hello_world)
 add_subdirectory(echo)
 add_subdirectory(commandline_arguments)
 add_subdirectory(string_stream)
-
+add_subdirectory(pointers)
+add_subdirectory(vectors)
+add_subdirectory(linked_list)
