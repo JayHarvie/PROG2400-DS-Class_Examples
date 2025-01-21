@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 class LinkedList {
     struct Node {
         int _data {-1};
