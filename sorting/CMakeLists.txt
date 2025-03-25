@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 set(CMAKE_CXX_FLAGS "-static")
 
-add_executable(sorting main.cpp)
+add_executable(sorting main.cpp
+        binary_search_tree.cpp
+        binary_search_tree.h)
