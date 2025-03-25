@@ -17,7 +17,7 @@ void pass_by_double_pointer(int** ptr) {
 }
 
 int main() {
-  // basic integer
+    // basic integer
     auto byte = (uint8_t)0xFF;
     int word = 0x1234;
     auto dword = 0x1234'5678ul;
@@ -41,9 +41,9 @@ int main() {
     std::cout << qword_ptr << std::endl;
 
     // accessing memory via pointer
-    // std::cout << (int)(*byte_ptr) << std::endl;
+    //std::cout << (int)(*byte_ptr) << std::endl;
     pass_by_pointer((int*)&word);
-    pass_by_pointer(&word);
+    pass_by_reference(word);
     pass_by_double_pointer(&byte_ptr);
 
     // simple pointer manipulation
@@ -54,7 +54,7 @@ int main() {
     // to read a pointer
     std::cout << *ptr << std::endl;
 
-    // to midify the pointer
+    // to modify a pointer
     *ptr = 0x1234;
     std::cout << *ptr << std::endl;
 
@@ -62,7 +62,7 @@ int main() {
     // (which is what a pointer normally contains)
     int* p = &val; // use the ampersand
 
-    // you can get pointer to ANYTHING (except references)
+    // you can get pointers to ANYTHING (except references)
     void* pv = (void*)main;
 
     // you can get references to anything that has a data type
@@ -71,4 +71,3 @@ int main() {
 
     return 0;
 }
-

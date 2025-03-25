@@ -1,22 +1,20 @@
 #include <iostream>
-#include <string>
+#include <string_view>
 
-using std::cout, std::cin, std::endl, std::getline;
+using namespace std::literals;
 
 int main() {
+  constexpr auto END = "end"sv;
 
+  const auto get_input = []() {
     std::string input;
-    constexpr auto END = "end";
+    std::cout << "Enter a line of text: "sv;
+    std::getline(std::cin, input);
+    return input;
+  };
 
-    do {
-        cout << "Please enter a line of text (type 'end' to quit): " << endl;
-        getline(cin, input);
-
-        if (input != END) {
-            cout << "You typed: " << input << "\n" << endl;
-        }
-
-    } while (input != END);
-
-    return 0;
+  std::string user_input;
+  while ((user_input = get_input()) != END) {
+    std::cout << R"(You typed: ")"sv << user_input << R"(")"sv << std::endl;
+  }
 }
